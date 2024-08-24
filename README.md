@@ -1,6 +1,8 @@
-# Portfolio Blog Starter
+# kotakun.blog
 
-This is a porfolio site template complete with a blog. Includes:
+This portfolio site is built with Next.js and Tailwind CSS. The original template is from [Portfolio Blog Starter](https://github.com/vercel/examples/tree/main/solutions/blog).
+
+Includes:
 
 - MDX and Markdown support
 - Optimized for SEO (sitemap, robots, JSON-LD schema)
@@ -11,26 +13,13 @@ This is a porfolio site template complete with a blog. Includes:
 - Vercel Speed Insights / Web Analytics
 - Geist font
 
-## Demo
-
-https://portfolio-blog-starter.vercel.app
-
-## How to Use
-
-You can choose from one of the following two methods to use this repository:
-
-### One-Click Deploy
-
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples):
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/solutions/blog&project-name=blog&repository-name=blog)
-
-### Clone and Deploy
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [pnpm](https://pnpm.io/installation) to bootstrap the example:
+## How to Use and Deploy
 
 ```bash
-pnpm create next-app --example https://github.com/vercel/examples/tree/main/solutions/blog blog
+git clone https://github.com/kotakun/kotakun.blog.git
+cd kotakun.blog
+
+pnpm install
 ```
 
 Then, run Next.js in development mode:

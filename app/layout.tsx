@@ -11,21 +11,20 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 
 import { baseUrl } from "./sitemap";
 
-import { Navbar } from "./components/nav";
 import Footer from "./components/footer";
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
-    default: "Next.js Portfolio Starter",
-    template: "%s | Next.js Portfolio Starter",
+    default: "kotakun.blog",
+    template: "%s | kotakun.blog",
   },
-  description: "This is my portfolio.",
+  description: "This is Kota Cody Enokida's personal blog.",
   openGraph: {
-    title: "My Portfolio",
-    description: "This is my portfolio.",
+    title: "kotakun.blog",
+    description: "This is Kota Cody Enokida's personal blog.",
     url: baseUrl,
-    siteName: "My Portfolio",
+    siteName: "kotakun.blog",
     locale: "en_US",
     type: "website",
   },

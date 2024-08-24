@@ -1,9 +1,8 @@
 import { notFound } from "next/navigation";
+
 import { CustomMDX } from "app/components/mdx";
 import { formatDate, getBlogPosts } from "app/blog/utils";
 import { baseUrl } from "app/sitemap";
-import Link from "next/link";
-import Image from "next/image";
 import BackButton from "app/components/back-button";
 
 export async function generateStaticParams() {
@@ -79,8 +78,8 @@ export default function Blog({ params }) {
               : `/og?title=${encodeURIComponent(post.metadata.title)}`,
             url: `${baseUrl}/blog/${post.slug}`,
             author: {
-              "@type": "Person",
-              name: "My Portfolio",
+              "@type": "Kota Cody Enokida",
+              name: "kotakun.blog",
             },
           }),
         }}
