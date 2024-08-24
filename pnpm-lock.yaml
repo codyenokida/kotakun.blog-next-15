@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@tailwindcss/oxide-linux-x64-gnu':
+        specifier: 0.0.0-insiders.8fb9ae8f
+        version: 0.0.0-insiders.8fb9ae8f
       '@tailwindcss/postcss':
         specifier: 4.0.0-alpha.13
         version: 4.0.0-alpha.13(postcss@8.4.35)
@@ -304,6 +307,12 @@ packages:
     resolution: {integrity: sha512-m47iIQ629DUEwd5bWaglpfLljQPp9ewEB+pn7fMhPTKCo8KS2xMfO20SvcpE3Ad+8zNEjGFgEuG2c2mfquMv1g==}
     engines: {node: '>= 10'}
     cpu: [arm64]
+    os: [linux]
+
+  '@tailwindcss/oxide-linux-x64-gnu@0.0.0-insiders.8fb9ae8f':
+    resolution: {integrity: sha512-680ke0wc0CWkP7PfmeklHUju6xZnTX94/Hx/MpG7QSpln2EJ5WBacmQRajU4zJ0tLnZ4ZJQcG8yafJE3HoReOQ==}
+    engines: {node: '>= 10'}
+    cpu: [x64]
     os: [linux]
 
   '@tailwindcss/oxide-linux-x64-gnu@4.0.0-alpha.13':
@@ -1188,6 +1197,8 @@ snapshots:
 
   '@tailwindcss/oxide-linux-arm64-musl@4.0.0-alpha.13':
     optional: true
+
+  '@tailwindcss/oxide-linux-x64-gnu@0.0.0-insiders.8fb9ae8f': {}
 
   '@tailwindcss/oxide-linux-x64-gnu@4.0.0-alpha.13':
     optional: true
